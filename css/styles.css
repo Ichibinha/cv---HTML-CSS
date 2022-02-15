@@ -1,0 +1,29 @@
+/*This is an external css, and it is used to afect the whole website
+not just a page as the internal css does.                        */
+body {
+  background-color: #EAF6F6;
+}
+/*Okay, so this is how the CSSS notes are structured, it's actually easier than the HTML*/
+
+/* The Browser on your computer has a default configuration, and you can't change some of those.
+But, the ones you can change like border-style you have to be direct*/
+hr {
+  background-color: #EAF6F6;
+  height: 1px;
+  width: 30%;
+  margin-right:100%;
+  /*You can read on MDN border style what is the order but I think it is top, sides, bottom*/
+  border-style:dotted none none;
+  border-color: grey;
+  border-width: 4px
+}
+
+h1 {
+  color: #66bfbf;
+  font-style:italic;
+}
+h3 {
+  color: #66bfbf;
+  /*Maybe text shadow is a bad idea, it doesn't look so cool, the yellow is the only one I can actually understand what it's written*/
+  text-shadow: 3px 3px 4px yellow;
+}
