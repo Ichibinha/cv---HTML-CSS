@@ -1,3 +1,6 @@
+/************************************************* TAG SELECTORS *************************************************/
+
+
 /*This is an external css, and it is used to afect the whole website
 not just a page as the internal css does.                        */
 body {
@@ -27,3 +30,20 @@ h3 {
   /*Maybe text shadow is a bad idea, it doesn't look so cool, the yellow is the only one I can actually understand what it's written*/
   text-shadow: 3px 3px 4px yellow;
 }
+
+/************************************************* CLASS SELECTORS *************************************************/
+/*  Instead of turning the background of every image on the website we can define a class so only the image you want will have a coloured background
+ .class {}   */
+
+.circular {
+  border-radius: 100%;
+}
+
+.stars:hover {
+  background-color: black;
+}
+
+
+
+ /************************************************* ID SELECTORS *************************************************/
+/* So ID's are different from classes because there can be only one ID.   #ID   */
