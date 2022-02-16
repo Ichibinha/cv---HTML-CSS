@@ -39,8 +39,12 @@ h3 {
   border-radius: 100%;
 }
 
+.star {
+  font-size: 15px;
+}
+
 .stars:hover {
-  background-color: black;
+  font-size: 17px;
 }
 
 
